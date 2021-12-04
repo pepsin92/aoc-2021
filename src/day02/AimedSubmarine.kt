@@ -3,7 +3,6 @@ package day02
 class AimedSubmarine : Submarine() {
     var aim: Int = 0
 
-
     override fun forward(value: Int) {
         super.forward(value)
         depth += value * aim

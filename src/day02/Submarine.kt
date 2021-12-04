@@ -23,4 +23,3 @@ open class Submarine(var position: Int = 0, var depth: Int = 0) {
     val score: Int
         get() = position * depth
 }
-

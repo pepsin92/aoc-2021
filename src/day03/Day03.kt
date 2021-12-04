@@ -34,7 +34,6 @@ fun main() {
         val values = counters.map(Counter::getMax)
 
         return values.fromBinary() * values.invert().fromBinary()
-
     }
 
     fun part2(input: List<String>): Int {

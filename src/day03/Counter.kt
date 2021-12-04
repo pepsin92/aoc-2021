@@ -8,7 +8,6 @@ class Counter : HashMap<Char, Int>() {
 
     fun getMax(): Char = if (this['1']!! >= this['0']!!) '1' else '0'
 
-
     override fun toString(): String {
         return "<Counter ${super.toString()}>"
     }
